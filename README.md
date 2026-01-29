@@ -49,7 +49,8 @@ Los siguientes diagramas representan el diseño actual del backend y sirven como
 
 ### 5.1 Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](<img width="1135" height="622" alt="Diagrama Casos de Uso drawio" src="https://github.com/user-attachments/assets/34ef2256-8aff-46cc-8572-dabfbbe59bfa" />)
+![Diagrama de Casos de Uso](https://github.com/user-attachments/assets/14898a19-040f-4fae-aefb-6495a1ba4366)
+)
 
 
 **Descripción:**
@@ -59,7 +60,7 @@ Define las interacciones entre los distintos roles del sistema y las funcionalid
 
 ### 5.2 Diagrama de Secuencia
 
-![Diagrama de Secuencia](<img width="1126" height="721" alt="Diagrama de Secuencia drawio" src="https://github.com/user-attachments/assets/8e5729b3-7e80-49bc-9763-e4ff0cc5c9dd" />
+![Diagrama de Secuencia](https://github.com/user-attachments/assets/8e9193ef-eeac-4d4e-9345-c1c4843544c6)
 )
 
 **Descripción:**
@@ -69,7 +70,8 @@ Representa el flujo de una operación típica desde la solicitud HTTP hasta la p
 
 ### 5.3 Diagrama de Clases
 
-![Diagrama de Clases](<img width="721" height="544" alt="DiagramadeClases drawio" src="https://github.com/user-attachments/assets/8bc7735f-268e-4894-afb6-666a5d4112a0" />)
+![Diagrama de Clases](https://github.com/user-attachments/assets/f93d0a71-b51e-44e6-a025-4cda1586468d)
+)
 
 **Descripción:**
 Muestra las entidades principales del dominio y sus relaciones.
@@ -78,7 +80,7 @@ Muestra las entidades principales del dominio y sus relaciones.
 
 ### 5.4 Diagrama de Base de Datos
 
-![Diagrama de Base de Datos](<img width="2500" height="2143" alt="Diagrama DB-Diagrama ER drawio" src="https://github.com/user-attachments/assets/a0b48436-cfa7-499b-b8c4-76a55d0b17c2" />
+![Diagrama de Base de Datos](https://github.com/user-attachments/assets/a0b48436-cfa7-499b-b8c4-76a55d0b17c2
 )
 
 **Descripción:**
