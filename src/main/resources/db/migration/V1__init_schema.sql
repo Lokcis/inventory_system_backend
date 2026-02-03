@@ -231,8 +231,6 @@ CREATE TABLE inventory_movements
     CONSTRAINT fk_inventory_movements_user
         FOREIGN KEY (created_by) REFERENCES users (user_id)
 );
-  FOREIGN KEY (created_by) REFERENCES users (user_id)
-);
 
 -- =========================
 -- OTP_CODES (2FA)
