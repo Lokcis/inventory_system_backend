@@ -84,8 +84,44 @@ public class ProductEntity {
         DISCONTINUED
     }
 
-    public void Product() {
+    public ProductEntity (){
+
     }
+
+    public ProductEntity(
+            String productCode,
+            String name,
+            ProductType productType,
+            String size,
+            String color,
+            String brand,
+            String location,
+            BigDecimal purchasePrice,
+            BigDecimal salePrice,
+            BigDecimal width,
+            BigDecimal height,
+            BigDecimal depth,
+            ProductStatus status,
+            LocalDateTime createdAt,
+            LocalDateTime updatedAt
+    ) {
+        this.productCode = productCode;
+        this.name = name;
+        this.productType = productType;
+        this.size = size;
+        this.color = color;
+        this.brand = brand;
+        this.location = location;
+        this.purchasePrice = purchasePrice;
+        this.salePrice = salePrice;
+        this.width = width;
+        this.height = height;
+        this.depth = depth;
+        this.status = status;
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
+    }
+
 
 
     public Long getId() {
