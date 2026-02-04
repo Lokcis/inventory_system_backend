@@ -1,11 +1,18 @@
 package com.inventory.management.product;
 
 import jakarta.persistence.*;
+import lombok.*;
+
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "products")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class ProductEntity {
 
     @Id
@@ -82,138 +89,6 @@ public class ProductEntity {
         ACTIVE,
         INACTIVE,
         DISCONTINUED
-    }
-
-    public void Product() {
-    }
-
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getProductCode() {
-        return productCode;
-    }
-
-    public void setProductCode(String productCode) {
-        this.productCode = productCode;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public ProductType getProductType() {
-        return productType;
-    }
-
-    public void setProductType(ProductType productType) {
-        this.productType = productType;
-    }
-
-    public String getSize() {
-        return size;
-    }
-
-    public void setSize(String size) {
-        this.size = size;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public String getBrand() {
-        return brand;
-    }
-
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
-    public BigDecimal getPurchasePrice() {
-        return purchasePrice;
-    }
-
-    public void setPurchasePrice(BigDecimal purchasePrice) {
-        this.purchasePrice = purchasePrice;
-    }
-
-    public BigDecimal getSalePrice() {
-        return salePrice;
-    }
-
-    public void setSalePrice(BigDecimal salePrice) {
-        this.salePrice = salePrice;
-    }
-
-    public BigDecimal getWidth() {
-        return width;
-    }
-
-    public void setWidth(BigDecimal width) {
-        this.width = width;
-    }
-
-    public BigDecimal getHeight() {
-        return height;
-    }
-
-    public void setHeight(BigDecimal height) {
-        this.height = height;
-    }
-
-    public BigDecimal getDepth() {
-        return depth;
-    }
-
-    public void setDepth(BigDecimal depth) {
-        this.depth = depth;
-    }
-
-    public ProductStatus getStatus() {
-        return status;
-    }
-
-    public void setStatus(ProductStatus status) {
-        this.status = status;
-    }
-
-    public LocalDateTime getCreatedAt() {
-        return createdAt;
-    }
-
-    public void setCreatedAt(LocalDateTime createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    public LocalDateTime getUpdatedAt() {
-        return updatedAt;
-    }
-
-    public void setUpdatedAt(LocalDateTime updatedAt) {
-        this.updatedAt = updatedAt;
     }
 
 }
