@@ -1,4 +1,7 @@
 package com.inventory.management.product;
 
-public class ProductService {
+import org.springframework.stereotype.Service;
+
+@Service
+public class ProductService implements IProductService{
 }
